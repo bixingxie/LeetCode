@@ -1,10 +1,14 @@
 class Solution:
+    
     #Alternative: dp
     def __init__(self):
         self.size = 0 
         self.start = 0
     
-    
+    """
+    :type s: str
+    :rtype: str
+    """
     def longestPalindrome(self, s):
         """
         :type s: str
