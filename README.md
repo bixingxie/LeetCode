@@ -7,7 +7,7 @@ A personal repo for programming practices and learning purposes. Solutions will 
 
 ## Problems to solve
 
-4. Median of Two Sorted Arrays
+4: Median of Two Sorted Arrays
 
 ## Author
 
