@@ -40,7 +40,7 @@ class Solution:
         :rtype: str
         """
 
-        #optimized: 97.81%
+        #optimized: 99.83%
         
         if numRows == 1 or numRows >= len(s):
             return s
@@ -52,9 +52,9 @@ class Solution:
         for char in s: 
             res[index] += char 
             
-            if(index == 0): 
+            if index == 0: 
                 step = 1
-            elif(index == numRows-1): 
+            elif index == numRows-1: 
                 step = -1
                 
             index += step
