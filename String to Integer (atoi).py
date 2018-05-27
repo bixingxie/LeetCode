@@ -5,44 +5,32 @@ class Solution:
         :rtype: int
         """
         
-        if(str == None or len(str) == 0):
-            return 0
-            
-        d = {}
+        #optimized, 99%
+        
         sign = 1
-        res = ''
-        digitFlag = False
+        res = 0
         
-        for index, value in enumerate(str): 
-            if value.isdigit():
-                res += value 
-                digitFlag = True
-            else: 
-                if digitFlag == False:
-                    if(value == '-'):
-                        sign = -1
-                else:
-                    break
-        
-        if(res == ''):
-            return 0 
-        else: 
-            if(sign == 1):
-                if(int(res) > 2**31-1):
-                    return 2**31-1
-                else:
-                    return int(res)
-            else:
-                if(-1 * int(res) < -2**31):
-                    return -2**31
-                else:
-                    return -1 * int(res)
-
-
-a = Solution()
-print(a.myAtoi("words and 987"))
-
-                
+        str = str.strip()
+        if len(str) == 0: 
+            return 0
+        if str[0] == '+': 
+            sign = 1
+            str = str[1:]
+        elif str[0] == '-': 
+            sign = -1
+            str = str[1:]
             
-
+        for char in str: 
+            if char.isdigit(): 
+                res = res*10 + int(char)
+            else:
+                break
+                
+        res*=sign
         
+        if res > 2**31-1 :
+            return 2**31-1
+        elif res < -2**31:
+            return -2**31
+        else:
+            return res
