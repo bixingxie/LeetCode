@@ -12,6 +12,7 @@ A personal repo for programming practices and learning purposes. Solutions will 
 * [linked list](https://github.com/bixingxie/LeetCode/tree/master/linked%20list)
 * [miscellaneous](https://github.com/bixingxie/LeetCode/tree/master/miscellaneous)
 * [string](https://github.com/bixingxie/LeetCode/tree/master/string) 
+* [two pointers](https://github.com/bixingxie/LeetCode/tree/master/two%20pointers)
 
 ## To Do 
 
