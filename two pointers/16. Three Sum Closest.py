@@ -5,29 +5,30 @@ class Solution:
         :type target: int
         :rtype: int
         """
-
-        if len(nums) == 3:
-            return nums[0] + nums[1] + nums[2]
         
         nums.sort() 
         #[-4, -1, 1, 2]
-        res = float("-inf")
+        
+        #using diff is essential for correctness** 
+        #optimized, 89%
+        res = 0 
+        diff = float("inf")
         
         for index, value in enumerate(nums): 
+            
             start, end = index + 1, len(nums)-1
+            
             while start < end:
                 curr = value + nums[start] + nums[end]
                 if curr == target: 
                     return target
-
-                if abs(res - target) > abs(curr - target): 
+                
+                if abs(curr - target) < diff:
                         res = curr
-                        
+                        diff = abs(curr - target)
                 elif curr < target: 
                     start += 1
                 else: 
                     end -= 1
                     
         return res
-                
-
