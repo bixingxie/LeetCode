@@ -1,6 +1,8 @@
 class Solution:
     def isValid(self, s):
         """
+        time: O(n)
+        space: O(1)
         :type s: str
         :rtype: bool
         """
