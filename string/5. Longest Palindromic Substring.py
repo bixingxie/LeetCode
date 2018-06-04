@@ -10,10 +10,6 @@ class Solution:
     :rtype: str
     """
     def longestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """     
         
         for index in range(len(s)):
             self.checkOddPalindrome(s, index)

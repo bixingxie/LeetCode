@@ -1,14 +1,14 @@
 class Solution:
     def threeSumClosest(self, nums, target):
         """
+        time: O(n) 
+        space: O(1)
         :type nums: List[int]
         :type target: int
         :rtype: int
-        """
-        
+        """  
         nums.sort() 
-        #[-4, -1, 1, 2]
-        
+       
         #using diff is essential for correctness** 
         #optimized, 89%
         res = 0 

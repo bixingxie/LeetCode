@@ -1,6 +1,7 @@
 class Solution:
     def reverse(self, x):
         """
+        time: O(n)
         :type x: int
         :rtype: int
         
