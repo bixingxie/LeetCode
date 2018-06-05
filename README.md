@@ -15,10 +15,11 @@ A personal repo for programming practices and learning purposes. Solutions will 
 * [string](https://github.com/bixingxie/LeetCode/tree/master/string) 
 * [two pointers](https://github.com/bixingxie/LeetCode/tree/master/two%20pointers)
 
-## To Do 
+## Notes
 
-* 4: Median of Two Sorted Arrays
-* 5: Longest Palindromic String (using dp)
+* 4: Median of Two Sorted Arrays (to do)
+* 5: Longest Palindromic String (to solve again using dp)
+* 22. Generate Parentheses (to solve again, backtracking)
 
 ## Author
 
