@@ -20,6 +20,7 @@ A personal repo for programming practices and learning purposes. Solutions will 
 * 4: Median of Two Sorted Arrays (to do)
 * 5: Longest Palindromic String (to solve again using dp)
 * 22. Generate Parentheses (to solve again, backtracking)
+* 23. Merge k Sorted Lists (to solve again, using priority queue)
 
 ## Author
 
