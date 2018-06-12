@@ -1,6 +1,8 @@
 class Solution:
     def isPalindrome(self, x):
         """
+        time: O(n)
+        space: O(1)
         :type x: int
         :rtype: bool
         """
