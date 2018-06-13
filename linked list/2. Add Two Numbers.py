@@ -8,6 +8,8 @@ class ListNode:
 class Solution:
     def addTwoNumbers(self, l1, l2):
         """
+        time: O(n)
+        space: O(1)
         :type l1: ListNode
         :type l2: ListNode
         :rtype: ListNode
