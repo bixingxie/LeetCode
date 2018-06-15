@@ -1,6 +1,8 @@
 class Solution:
     def searchRange(self, nums, target):
         """
+        time: O(log(n))
+        space: O(1)
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
