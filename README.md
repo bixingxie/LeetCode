@@ -7,6 +7,7 @@ A personal repo for programming practices and learning purposes. Solutions will 
 
 ## Directory
 
+* [binary search](https://github.com/bixingxie/LeetCode/tree/master/binary%20search)
 * [dp](https://github.com/bixingxie/LeetCode/tree/master/dp)
 * [hash table](https://github.com/bixingxie/LeetCode/tree/master/hash%20table) 
 * [linked list](https://github.com/bixingxie/LeetCode/tree/master/linked%20list)
