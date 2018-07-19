@@ -1,6 +1,8 @@
 class Solution(object):
     def numMagicSquaresInside(self, grid):
         """
+        time: O(n**2)
+       	space: O(1)
         :type grid: List[List[int]]
         :rtype: int
         """
